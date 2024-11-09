@@ -1,0 +1,37 @@
+\chapter{Exploration of the data}
+
+\section{Aim} 
+\begin{enumerate}
+    \item To classify / predict whether a patient is prone to heart failure depending on multiple attributes.
+    \item It is a \textbf{binary classification} with multiple numerical and categorical features.
+\end{enumerate}
+
+\section{Source of Data}
+This dataset was created by combining different datasets already available independently but not combined before. In this dataset, 5 heart datasets are combined over 11 common features which makes it the largest heart disease dataset available so far for research purposes. The five datasets used for its curation are:
+
+Cleveland: 303 observations
+Hungarian: 294 observations
+Switzerland: 123 observations
+Long Beach VA: 200 observations
+Stalog (Heart) Data Set: 270 observations
+Total: 1190 observations Duplicated: 272 observations
+
+Final dataset: 918 observations
+
+Every dataset used can be found under the Index of heart disease datasets from \href{https://archive.ics.uci.edu/dataset/45/heart+disease}{UCI Machine Learning Repository}.
+
+\section{Dataset Attributes}
+\begin{enumerate}
+    \item \textbf{Age} : age of the patient [years]
+    \item \textbf{Sex} : sex of the patient [M: Male, F: Female]
+    \item \textbf{ChestPainType} : chest pain type [TA: Typical Angina, ATA: Atypical Angina, NAP: Non-Anginal Pain, ASY: Asymptomatic]
+    \item \textbf{RestingBP} : resting blood pressure [mm Hg]
+    \item \textbf{Cholesterol} : serum cholesterol [mm/dl]
+    \item \textbf{FastingBS} : fasting blood sugar [1: if FastingBS > 120 mg/dl, 0: otherwise]
+    \item \textbf{RestingECG} : resting electrocardiogram results [Normal: Normal, ST: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV), LVH: showing probable or definite left ventricular hypertrophy by Estes' criteria]
+    \item \textbf{MaxHR} : maximum heart rate achieved [Numeric value between 60 and 202]
+    \item \textbf{ExerciseAngina} : exercise-induced angina [Y: Yes, N: No]
+    \item \textbf{Oldpeak} : oldpeak = ST [Numeric value measured in depression]
+    \item \textbf{ST\_Slope} : the slope of the peak exercise ST segment [Up: upsloping, Flat: flat, Down: downsloping]
+    \item \textbf{HeartDisease} : output class [1: heart disease, 0: Normal]
+\end{enumerate}
